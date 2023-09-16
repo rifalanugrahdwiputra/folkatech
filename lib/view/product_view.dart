@@ -121,21 +121,6 @@ class _ProductViewState extends State<ProductView> {
                                           ),
                                         ],
                                       ),
-                                      const SizedBox(height: 5.0),
-                                      Row(
-                                        children: [
-                                          Expanded(
-                                            child: Text(
-                                              data.desc,
-                                              style: const TextStyle(
-                                                fontSize: 10.0,
-                                                fontWeight: FontWeight.bold,
-                                                overflow: TextOverflow.ellipsis,
-                                              ),
-                                            ),
-                                          ),
-                                        ],
-                                      ),
                                     ],
                                   ),
                                 ),
